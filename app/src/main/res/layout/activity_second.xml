@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/pink"
+    tools:context="com.example.timalperamune.interestedornot.SecondActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/Number2"
+        android:layout_centerHorizontal="true"
+        android:progressTint="@color/colorPrimaryDark" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/textView14"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/textView9"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        android:id="@+id/progressBarL"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/Number1"
+        android:layout_alignStart="@+id/progressBar1"
+        android:progressTint="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Joy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="Like meter" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_toEndOf="@+id/progressBar3"
+        android:text="Number" />
+
+    <TextView
+        android:id="@+id/Number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/progressBar1"
+        android:layout_alignEnd="@+id/progressBar1"
+        android:layout_marginBottom="25dp"
+        android:text="Number" />
+    <TextView
+        android:id="@+id/Number2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/progressBar3"
+        android:layout_alignEnd="@+id/progressBar3"
+        android:layout_marginBottom="25dp"
+        android:text="Number" />
+
+    <TextView
+        android:id="@+id/Joy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Number1"
+        android:layout_alignBottom="@+id/Number1"
+        android:layout_centerHorizontal="true"
+        android:text="Joy" />
+
+    <TextView
+        android:id="@+id/Sadness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBaseline="@+id/Number2"
+        android:layout_alignBottom="@+id/Number2"
+
+        android:layout_centerHorizontal="true"
+        android:text="Sadness" />
+
+    <ProgressBar
+        android:id="@+id/progressBar5"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="310dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignStart="@+id/progressBarFear" />
+
+    <ProgressBar
+        android:id="@+id/progressBarFear"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="310dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/progressBar2"
+        android:layout_centerHorizontal="true"
+        android:text="Anger" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView9"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_toEndOf="@+id/Sadness"
+        android:text="Number" />
+
+    <TextView
+        android:id="@+id/interest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:text="DO THEY LIKE YOU?"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/progressBar5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Disgust" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView13"
+        android:layout_alignBottom="@+id/textView13"
+        android:layout_alignEnd="@+id/progressBar5"
+        android:text="Number" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Back" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/progressBarFear"
+        android:layout_centerHorizontal="true"
+        android:text="Fear" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignStart="@+id/textView14"
+        android:text="Number" />
+
+    <Button
+        android:id="@+id/stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/interest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="REVEAL STATS" />
+
+    <TextView
+        android:id="@+id/grats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignStart="@+id/Sadness"
+        android:layout_marginBottom="14dp"
+        android:text="......."
+        android:textSize="30sp" />
+
+</RelativeLayout>

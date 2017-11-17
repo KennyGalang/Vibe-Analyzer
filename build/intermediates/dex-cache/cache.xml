@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/Zyne/Desktop/InterestedOrNot 4/app/libs/java-sdk-4.0.0-jar-with-dependencies.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1d1b2b7c66905a590b118409cdedb14a22b096f8">
+        <dex dex="/Users/Zyne/Desktop/InterestedOrNot 4/app/build/intermediates/pre-dexed/debug/java-sdk-4.0.0-jar-with-dependencies_401f537f570804bb8e8acd618b3dc8e2642ee6d1.jar" />
+    </item>
+
+</items>
